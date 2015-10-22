@@ -1,0 +1,30 @@
+input[type="text"]{
+    float:right;
+}
+input[type="password"]{
+    float:right;
+}
+
+label{
+
+}
+
+.tweet{
+    border:2px black solid;
+    border-radius:10px;
+    height:100px;
+    overflow:auto;
+    margin:10px;
+}
+
+#mur{
+    margin-left:10px;
+}
+
+form div {
+    margin:10px;
+}
+
+form{
+    width:400px;
+}

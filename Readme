@@ -1,0 +1,17 @@
+Dans les taches à effectuer
+
+Hugo a effectuer la page d'inscription
+Hugo a effectuer la page de login
+Florian a effectuer la mur de tweets avec une couleur particulière pour les tweets de l'utilisateur logué
+Florian a effectuer la formulaire pour envoyer des tweets de 140 caractères
+Hugo a preparer les fonctions de modification et de suppression des tweets de l'utilisateur logué
+Hugo a effectuer la page « profil » avec les informations de l'utilisateur, des statistiques, la liste des
+tweets envoyés, un bouton pour supprimer l'utilisateur
+Florian a effectuer la fichier Readme qui explique comment vous vous êtes partagés le travail (qui a fait
+quoi) et jusqu'où vous en êtes arrivé
+
+Florian a créer un fichier Gulp
+Nous n'avons pas Optimiser le CSS avec gulp-csso
+Nous n'avons pas Valider votre code javascript avec JSHint
+Nous n'avons pas Minifer vos fichiers
+Hugo a Push sur Github

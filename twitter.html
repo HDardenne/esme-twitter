@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Bienvenue sur votre mur</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/twitter.css" rel="stylesheet" media="screen"/>
+</head>
+<body>
+
+<h1 id="titrePage">Bienvenue sur la page de création d'utilisateur pour twitesme</h1>
+
+<input id="userKey" type="hidden" value="">
+<button type="button" id="logoutB">Log out</button>
+<form id="notCo">
+<span>Login </span><input type="radio" name="choixLog" value="login"> <span>Signup </span><input type="radio" name="choixLog" value="signup">
+</form>
+<form name="login" id="login">
+    <div>Utilisateur : <input type="text" class="iUsername"></div>
+    <div>Mot de passe : <input type="password" class="iPassword"></div>
+    <div><button type="button" id="loginB">login</button></div>
+</form>
+
+<form name="signup" id="signup">
+    <div>Utilisateur : <input type="text" class="iUsername"></div>
+    <div>Nom : <input type="text" class="iNom"></div>
+    <div>Prenom : <input type="text" class="iPrenom"></div>
+    <div>Mot de passe : <input type="password" class="iPassword"></div>
+    <div><button type="button" id="creerUtilisateur">Creer</button></div>
+</form>
+
+<!------------------------------------------------------------------------------------------>
+
+<button type="button" id="bTousTweets">Afficher tous les tweets</button>
+<button type="button" id="ajoutTweetB">Ajouter un tweet</button>
+<div id="mur" class="row"></div>
+
+<div id="ajoutTweet">
+<textarea id="message"></textarea>
+<input type="hidden" id="timestamp" value="">
+<input type="button" id="createTweet" value="Send">
+</div>
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/twitter.js"></script>
+</body>
+</html>
